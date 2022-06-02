@@ -60,3 +60,12 @@
     background: #c555ee;
     color: white;
   }
+  .hover_effect {
+    height:25%;
+    width: auto; 
+  }
+   
+  .hover_effect:hover {
+    height: 100%;
+    width: auto;
+  }
