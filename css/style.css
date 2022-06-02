@@ -14,7 +14,15 @@
     border: 20px solid;
 
 }
-.nav{
+.navbar{
+    font-size: larger;
+    font-display: center;
+
+}
+
+.navbar-text{
+    color: goldenrod;
+   
 
 }
 
@@ -52,4 +60,3 @@
     background: #c555ee;
     color: white;
   }
-  
