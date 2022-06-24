@@ -5,15 +5,15 @@
 }
 
 .header{
-    min-height: 100vh;'
+    min-height: 100vh;
     width: 100%;
     background-image: url("/images/mainpic.jpg"); 
     background-position: center;
     background-size: cover;
     position: relative;
     border: 20px solid;
-
 }
+
 .navbar{
     font-size: larger;
     font-display: center;
