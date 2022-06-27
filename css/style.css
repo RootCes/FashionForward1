@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -25,13 +25,12 @@
 
 .navbar{
     font-size: larger;
-    font-display: center;
-    
+    font-display: center;    
 
 }
 
 .navbar-text{
-    color: goldenrod;
+    color: rgb(236, 235, 230);
    
 
 }
