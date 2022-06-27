@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("/images/mainpic.jpg"); 
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border: 20px solid;
+}
+
+.navbar{
+    font-size: larger;
+    font-display: center;
+
+}
+
+.navbar-text{
+    color: goldenrod;
+   
+
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    height: auto;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.footer{
+    background-color: black;
+    font-size: large;
+
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #c555ee;
+    color: white;
+  }
+  .hover_effect {
+    height:25%;
+    width: auto; 
+  }
+   
+  .hover_effect:hover {
+    height: 100%;
+    width: auto;
+  }
+/*About Us styles goes here: below */
+.media {
+  display: flex;
+  align-items: flex-start;
+}
+.media .content {
+  flex: 1;
+  padding: 10px;
+}
+
+/*The content below this line is for the new foorter that i have just created today Monday 6/27/2022. */
+* {
+  box-sizing: border-box;
+  font-family: ’Lato’, sans-serif;
+  margin: 0; 
+  padding: 0;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+footer {
+  background-color: #555;
+  color: #bbb;
+  line-height: 1.5;
+}
+footer a {
+  text-decoration: none;
+  color: #eee;
+}
+a:hover {
+  text-decoration: underline;
+}
+.ft-title {
+  color: #fff;
+  font-family: ’Merriweather’, serif;
+  font-size: 1.375rem;
+  padding-bottom: 0.625rem;
+}
+/* the css for the new footer continues here (below this line) */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.container {
+  flex: 1;    /* same as flex-grow: 1; */
+}
+/* the code below will line up the new footer */
+.ft-main {
+  padding: 1.25rem 1.875rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ft-main-item {
+  padding: 1.25rem;
+  min-width: 12.5rem /*200px*/;
+}
+
+/* this line of code will style the newsletter Form*/
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+input[type="email"] {
+  border: 0;
+  padding: 0.625rem;
+  margin-top: 0.3125rem;
+}
+input[type="submit"] {
+  background-color: #00d188;
+  color: #fff;
+  cursor: pointer;
+  border: 0;
+  padding: 0.625rem 0.9375rem;
+  margin-top: 0.3125rem;
+}
+
+/* this line of code will Line Up the Social Footer*/
+.ft-social {
+  padding: 0 1.875rem 1.25rem;
+}
+.ft-social-list {
+  display: flex;
+  justify-content: center;
+  border-top: 1px #777 solid; 
+  padding-top: 1.25rem;
+}
+.ft-social-list li {
+  margin: 0.5rem;
+  font-size: 1.25rem;
+}
+
+/* this line of code will Line Up the Legal Footer*/
+.ft-legal {
+  padding: 0.9375rem 1.875rem;
+  background-color: #333;
+}
+.ft-legal-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ft-legal-list li {
+  margin: 0.125rem 0.625rem;
+  white-space: nowrap;
+}
+/* one before the last child */
+.ft-legal-list li:nth-last-child(2) {
+  flex: 1;       /* same as flex-grow: 1; */
+}
+
+
+
+
+
