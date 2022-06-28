@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Chakra+Petch&family=Dongle:wght@300&family=Josefin+Sans:wght@200&family=Luxurious+Roman&family=Mochiy+Pop+P+One&family=Roboto:ital,wght@0,300;1,100;1,300&family=Yanone+Kaffeesatz:wght@300&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -182,7 +183,23 @@ input[type="submit"] {
   flex: 1;       /* same as flex-grow: 1; */
 }
 
+/* this line works for About Us page*/
+.section{
+  width: 100%;
+  min-height: 100vh;
+  background-clor: #ddd;
+}
+.container{
+  width: 80%;
+  display: block;
+  margin: auto
+  padding-top: 100px;
+}
 
+/*
+
+
+*/
 
 
 
