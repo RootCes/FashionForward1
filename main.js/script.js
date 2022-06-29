@@ -10,3 +10,15 @@
         justify-content: space-evenly;
     }
 }
+
+//this script is for the carousel slide in the home/index page
+
+const button = document.querySelector("[data-carousel-button]")
+
+buttons.forEach(button => {
+    button.addEventListener("click", () => {
+        const offset = button.dataset.carouselButton === "next" ? 1 : -1
+        const slides = button.closest("[data-carousel]").querySelector("[data-slides]")
+    })
+})
+
