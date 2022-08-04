@@ -1,0 +1,1 @@
+This project is about our Final Group Project. We are designing an eCommerce Fashion store called FashionForward men deigner suits, tuxedo and other varieties of mens suits and jackets. We are three in this group and we all work together to complete this project.
