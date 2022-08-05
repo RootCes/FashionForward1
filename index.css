@@ -27,8 +27,11 @@
 
 .navbar-text{
     color: goldenrod;
-   
+}
 
+.form{
+  background-color: black;
+  font: white;
 }
 
 .fa {
