@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Chakra+Petch&family=Dongle:wght@300&family=Josefin+Sans:wght@200&family=Luxurious+Roman&family=Mochiy+Pop+P+One&family=Roboto:ital,wght@0,300;1,100;1,300&family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar{
+    font-size: larger;
+    font-display: center;    
+
+}
+
+.navbar-text{
+    color: rgb(236, 235, 230);
+}
+
+/* start of header */
+
+header {
+    position: relative;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+    border: 20px solid;
+  }
+  
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  }
+  
+  
+header .container {
+  position: relative;
+  z-index: 2;
+  }
+
+  /* start of cards*/
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    border-radius: 5px;
+    display: inline-block !important;
+    border: 4px solid black !important;
+    border-radius: 12px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .cardcontainer {
+    padding: 2px 16px;
+    border: green solid 10px;
+    
+  }
+
+  /* start of footer */
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 0 5px;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .footer{
+    background-color: black;
+    font-size: large;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #c555ee;
+    color: white;
+  }
+  .hover_effect {
+    height:25%;
+    width: auto; 
+  }
+   
+  .hover_effect:hover {
+    height: 100%;
+    width: auto;
+  }
+  

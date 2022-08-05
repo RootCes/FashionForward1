@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("/images/mainpic.jpg"); 
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border: 20px solid;
+}
+
+.navbar{
+    font-size: larger;
+    font-display: center;
+
+}
+
+.navbar-text{
+    color: goldenrod;
+   
+
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.footer{
+    background-color: black;
+    font-size: large;
+
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #c555ee;
+    color: white;
+  }
+  .hover_effect {
+    height:25%;
+    width: auto; 
+  }
+   
+  .hover_effect:hover {
+    height: 100%;
+    width: auto;
+  }
